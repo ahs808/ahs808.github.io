@@ -13,4 +13,8 @@ Next go to the IPv4 tab. Select Manual for the IPv4 Method. Under Addresses you 
 
 Scroll down further and uncheck "Automatic" for DNS and Routes then click the Apply button in the top right. Now select your new network to connect to it.
 
-The IP address can be anything of your choosing within the max allowable values (255). Although, I recommend you research how an IP address is structured. The netmask differentiates the network ID and host ID. For an address of 192.1.1.3 with a netmask of 255.255.255.0, the host ID is 192.1.1 and the host ID is 3. The gateway is an address where traffic is sent when the destination is outside the network. This should usually be sent to a router. For very simple networks where all devices have static IP addresses it is sufficient to set the gateway to 0.0.0.0 which is interpreted as unspecified.
+The IP address can be anything of your choosing within the max allowable values (255). Although, I recommend you research how an IP address is structured. 
+
+The netmask differentiates the network ID and host ID. For an address of 192.1.1.3 with a netmask of 255.255.255.0, the network ID is 192.1.1 and the host ID is 3. 
+
+The gateway is an address where traffic is sent when the destination is outside the network. This should usually be sent to a router. For very simple networks where all devices have static IP addresses it is sufficient to set the gateway to 0.0.0.0 which is interpreted as unspecified.
